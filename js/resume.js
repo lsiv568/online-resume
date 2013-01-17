@@ -7,8 +7,14 @@ var Resume = {
     	Resume.handleNavSelect(event);
     });
 
+    $("#tmwModal").modal({show: false});
+    $("#gazelleModal").modal({show: false});
+    $("#bisModal").modal({show: false});
+    $("#rtnModal").modal({show: false});
     $("#tmw, #gazelle, #bis, #rtn").click(function (event) {
-      console.log(event);
+      var idString = "#" + event.toElement.id + "Modal";
+      console.log(idString);
+      $(idString).modal("show");
     })
 
     var sOffset = $(".sidebar-nav").offset().top;

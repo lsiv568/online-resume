@@ -83,3 +83,7 @@ footer {
 tr td img {
 	cursor: pointer;
 }
+
+.workModal {
+	display: none;
+}
