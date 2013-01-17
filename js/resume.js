@@ -12,8 +12,7 @@ var Resume = {
     $("#bisModal").modal({show: false});
     $("#rtnModal").modal({show: false});
     $("#tmw, #gazelle, #bis, #rtn").click(function (event) {
-      var idString = "#" + event.toElement.id + "Modal";
-      console.log(idString);
+      var idString = "#" + event.target.id + "Modal";
       $(idString).modal("show");
     })
 
@@ -44,7 +43,7 @@ var Resume = {
   	})
 
   	// add active class to selected element
-  	$(event.toElement.parentElement).addClass("active");	
+  	$(event.target.parentElement).addClass("active");	
   }
 
 
