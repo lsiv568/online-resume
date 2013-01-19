@@ -60,7 +60,8 @@ h1 {
   background-color: rgba(0, 188, 251, .1);
 }
 
-.nav > li > a:hover {
+.nav > li > a:hover, .table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th{
   background-color: rgba(255, 255, 255, .1);
 }
 
@@ -75,11 +76,16 @@ h1 {
 
 .page-header {
   border: 0;
+  padding-bottom: 0px;
 }
 
 footer {
   padding: 100px 0 50px;
   text-align: center;
+}
+
+div ul li {
+	padding-bottom: 3px;
 }
 
 tr td img {
