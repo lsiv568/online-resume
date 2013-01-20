@@ -17,12 +17,11 @@ var Resume = {
     })
 
     var sOffset = $(".sidebar-nav").offset().top;
-    var shareheight = $(".sidebar-nav").height() + 43;
     $(window).scroll(function (event){
       var scrollYpos = $(document).scrollTop();
-      if (scrollYpos > sOffset - shareheight) {
+      if (scrollYpos > sOffset) {
           $(".sidebar-nav").css({
-              'top': '61px',
+              'top': '5px',
               'position': 'fixed'
           });
       } else {
