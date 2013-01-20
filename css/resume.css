@@ -109,3 +109,7 @@ tr td img {
 .modal-body, .myModalLabel {
 	color: black;
 }
+
+.contactInfo {
+	padding-right: 10px;
+}
