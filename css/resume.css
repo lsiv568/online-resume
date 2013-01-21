@@ -94,7 +94,7 @@ tr td img {
 
 .overview {
 	text-align: left;
-	color: white;
+	color: #6DB2FF;
 	font-size: 16px;
 	padding-right: 100px;
 	padding-left: 100px;
@@ -114,4 +114,16 @@ tr td img {
 
 .contactInfo {
 	padding-right: 10px;
+}
+
+.carousel {
+	/*border: 1px solid;*/
+}
+
+.overview > p {
+	color: white;
+}
+
+.overview > p > strong {
+	color: #6DB2FF;
 }

@@ -7,6 +7,8 @@ var Resume = {
     	Resume.handleNavSelect(event);
     });
 
+    $('.carousel').carousel({interval: 10000, pause: "hover"});
+
     $("#tmwModal").modal({show: false});
     $("#gazelleModal").modal({show: false});
     $("#bisModal").modal({show: false});
