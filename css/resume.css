@@ -95,7 +95,7 @@ tr td img {
 .overview {
 	text-align: left;
 	color: #6DB2FF;
-	font-size: 16px;
+	font-size: 18px;
 	padding-right: 100px;
 	padding-left: 100px;
 }
@@ -118,6 +118,8 @@ tr td img {
 
 .carousel {
 	/*border: 1px solid;*/
+    height: 100px;
+    padding-top: 10px;
 }
 
 .overview > p {
