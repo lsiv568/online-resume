@@ -18,21 +18,21 @@ var Resume = {
       $(idString).modal("show");
     })
 
-    var sOffset = $(".sidebar-nav").offset().top;
-    $(window).scroll(function (event){
-      var scrollYpos = $(document).scrollTop();
-      if (scrollYpos > sOffset) {
-          $(".sidebar-nav").css({
-              'top': '5px',
-              'position': 'fixed'
-          });
-      } else {
-          $(".sidebar-nav").css({
-              'top': 'auto',
-              'position': 'relative'
-          });
-      }
-    });
+//    var sOffset = $(".sidebar-nav").offset().top;
+//    $(window).scroll(function (event){
+//      var scrollYpos = $(document).scrollTop();
+//      if (scrollYpos > sOffset) {
+//          $(".sidebar-nav").css({
+//              'top': '5px',
+//              'position': 'fixed'
+//          });
+//      } else {
+//          $(".sidebar-nav").css({
+//              'top': 'auto',
+//              'position': 'relative'
+//          });
+//      }
+//    });
 
   },
 
